@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgound_samsung"
+    android:padding="20dp"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/neck_exercises"
+        android:padding="20dp"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/startGame"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:text="Game mode"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:background="@color/Button"
+        android:padding="20dp"
+        />
+
+    <Button
+        android:id="@+id/dartGame"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/startGame"
+        android:layout_centerHorizontal="true"
+        android:text="Training mode"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/Button"
+        android:padding="20dp"
+        />
+
+    <Button
+        android:id="@+id/analyse"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dartGame"
+        android:layout_centerHorizontal="true"
+        android:text="ANALYSE MODE"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/Button"
+        android:padding="20dp"
+        />
+    <Button
+        android:id="@+id/graph"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/analyse"
+        android:layout_centerHorizontal="true"
+        android:text="Graph view"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/Button"
+        android:padding="20dp"
+        />
+
+
+</RelativeLayout>
